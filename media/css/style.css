@@ -1,0 +1,172 @@
+/** CSS RESET */
+html, body, img{margin:0; padding:0; border:none;}
+input, select, textarea{outline:none; border:1px solid #000;}
+input[type="submit"]{cursor: pointer;}
+a, a:link{text-decoration: none;}
+ul{list-style: none;padding: 0; margin: 0;}
+li{padding: 0;margin: 0;}
+
+/** STYLES */
+body{
+	background: #fff url(../images/bg.jpg) top left repeat;
+	font-family: 'Capriola', sans-serif;
+	color:#5e5e5e;
+}
+.central{width:1000px;margin:0 auto;}
+#wrapper{position: relative;}
+#wrapper-container{}
+.main{}
+.content{}
+
+/** header of pages */
+#bg-top{background-color: #ff9933;height:30px;}
+#header{
+	/*height: 195px;*/
+}
+#header-container{
+	position: relative;
+	border-bottom: 7px solid #cfcfcf;
+}
+
+#header-logo{
+	width: 195px;
+	padding: 30px 0 40px 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+#header-logo img{
+	vertical-align: middle;
+}
+
+#header-logodsintranet{
+	background: transparent url(../images/logo-dsintranet.png) top left no-repeat; 
+	width: 360px;
+	height:105px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 0 0 50px;
+}
+
+#header-right{
+	float: right;
+	display: inline-block;
+}
+#header-social-media{
+	background: #fff url(../images/bg-social-media.png) top left no-repeat;
+	display: inline-block;
+	float: right;
+	margin: 0 30px 0 0;
+}
+#header-social-media ul{}
+#header-social-media li{
+	float: left;
+	width:44px;
+	height: 43px;
+	display: inline-block;
+}
+#header-social-media .social-links{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+#header-social-media .social-tw{}
+#header-social-media .social-fb{}
+#header-social-media .social-gp{}
+#header-social-media .social-in{}
+
+#header-welcome-info-left{
+	float: left;
+	display: inline-block;
+	width: 240px;
+}
+#header-welcome-info-right{
+	float: left;
+	display: inline-block;
+}
+#header-welcome-info{
+	width:315px;
+	height:50px;
+	/*border:1px dashed #939393;*/
+	background: #fff url(../images/bg-welcome-info.png) top left no-repeat;
+	display: inline-block;
+	position: absolute;
+	top: 65px;
+	right: 30px;
+	padding: 10px 20px 15px 30px;
+}
+#txt-header-welcome{
+	font-size: 10px;
+}
+#txt-header-username{
+	font-size: 22px;
+	margin: 10px 0 0 0 ;
+}
+#header-time-info{
+	font-size: 22px;
+	color:#5e5e5e;
+	margin: 20px 0 0 20px;
+}
+
+#pre-container-info{}
+#pre-container-info-container{
+	border-bottom: 1px dashed #ddd;
+	min-height: 90px;
+}
+#quote-day{
+	width: 610px;
+	height: 60px;
+	display: inline-block;
+	float: left;
+	padding: 15px 0 15px 30px;
+}
+.qd-title{
+	color:#f47923;
+	font-size: 12px;
+	padding: 0 0 0 12px;
+}
+.qd-quote{
+	font-size: 22px;
+}
+.qd-by{
+	font-size: 12px;
+	padding: 0 0 0 10px;
+}
+#widgets-weather{
+	display: inline-block;
+	float: right;
+	padding: 10px 0;
+}
+
+/** container of pages */
+#container{
+	margin: 10px 0 0 0;
+}
+
+.ds-blocks-cols{
+	float: left;
+	width: 33%;
+}
+.ds-blocks{	
+	/*border:1px solid red;*/
+}
+.ds-blocks-container{
+	margin: 0 3px 10px 3px;	
+	border:1px solid #cfcfcf;
+	border-top:10px solid #cfcfcf;
+	padding: 10px 5px 10px 15px;
+}
+.ds-blocks-title{}
+.ds-blocks-content{}
+
+
+/** PAGE HOME */
+#page-home{}
+
+
+/** footer of pages */
+#footer{
+	background-color: #cfcfcf;
+	min-height: 100px;
+	clear: both;
+}
+#footer-container{}
